@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 const Contact = () => {
   return (
     <div
@@ -44,6 +45,18 @@ const Contact = () => {
             </button>
           </form>
         </div>
+
+        <footer className="lg:hidden flex flex-row h-[20px] gap-8 justify-center ">
+          <a href="https://www.linkedin.com/in/sohana-khatun/" target="_blank">
+            <FaLinkedin size={30} />
+          </a>
+          <a href="https://github.com/sohanakhatun" target="_blank">
+            <FaGithub size={30} />
+          </a>
+          <a href="mailto:sohanakhatun16@gmail.com" target="_blank">
+            <HiOutlineMail size={30} />
+          </a>
+        </footer>
       </div>
     </div>
   );

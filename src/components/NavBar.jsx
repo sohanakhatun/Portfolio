@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
-
+import { Button, Link } from "react-scroll";
+import Resume from '../Sohana_Resume_updated.pdf';
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -72,6 +72,14 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+          <a
+        href={Resume}
+        download="Sohana_Resume"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="text-4xl py-6">Resume</button>
+      </a>
         </ul>
       )}
     </div>

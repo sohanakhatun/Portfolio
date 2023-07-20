@@ -18,7 +18,7 @@ const Home = () => {
           To err is human, to debug is divine
           </p>
 
-          <div>
+          <div >
             <Link
               to="portfolio"
               smooth
@@ -31,6 +31,8 @@ const Home = () => {
               </span>
             </Link>
           </div>
+
+         
         </div>
 
         <div>
