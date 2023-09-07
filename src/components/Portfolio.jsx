@@ -6,52 +6,60 @@ import ExpenseTracker from '../assets/portfolio/expensetracker.png';
 import PasswordGenerator from '../assets/portfolio/passwordgenerator.png';
 import TechBlogs from '../assets/portfolio/techblogs.png';
 import WeatherApp from '../assets/portfolio/weatherapp.png';
+import studynotion from '../assets/portfolio/studynotion.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: studynotion,
+      code: "https://github.com/sohanakhatun/StudyNotion-Hosting",
+      demo: "https://studynotion-frontend-2k23.vercel.app/",
+    },
+    {
+      id: 2,
       src: ExpenseTracker,
       code: "https://github.com/sohanakhatun/Expense-tracker-Mern",
       demo: "https://jade-kind-gazelle.cyclic.app/",
     },
 
     {
-      id: 2,
+      id: 3,
       src: FilmyVerse,
       code: "https://github.com/sohanakhatun/filmyverse",
       demo: "https://filmyverse-sk.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       src: Ecomzy,
       code: "https://github.com/sohanakhatun/E-Comzy",
       demo: "https://e-comzy.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       src: TechBlogs,
       code: "https://github.com/sohanakhatun/Tech-Blogs",
       demo: "https://tech-blogs-react-sk.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       src: PasswordGenerator,
       code: "https://github.com/sohanakhatun/Password_Generator",
       demo: "https://sohanakhatun.github.io/Password_Generator/",
     },
     {
-      id: 6,
+      id: 7,
       src: WeatherApp,
       code: "https://github.com/sohanakhatun/weather-app",
       demo: "https://sohanakhatun.github.io/weather-app/",
     },
     {
-      id: 7,
+      id: 8,
       src: RazorPay,
       code: "https://github.com/sohanakhatun/RazorPay-Clone",
       demo: "https://razorpayclone2023.netlify.app/",
-    }
+    },
+   
 
   ];
 
