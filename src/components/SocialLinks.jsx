@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Sohana_Resume_updated.pdf",
+      href: "/Sohana_Khatun_Resume_2023.pdf",
       style: "rounded-br-md",
       download: true,
     },
